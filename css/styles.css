@@ -33,6 +33,13 @@ button {
   margin-left: auto;
   margin-right: auto;
 }
+.page-header-container {
+  display: flex;
+  align-items: center;
+}
+.page-nav {
+  display: flex;
+}
 .body {
   font-family: var(--primary-font);
   color: var(--primary-color-text);
@@ -43,6 +50,7 @@ button {
 .link {
   text-decoration: none;
 }
+
 .link:hover,
 .link:focus {
   text-decoration: underline;
