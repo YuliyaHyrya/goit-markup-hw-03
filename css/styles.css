@@ -8,6 +8,23 @@
   --color-WEB-background-btn: #4d5ae5;
   --color-background-team-btn-other: #f4f4fd;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+img {
+  display: block;
+}
 .body {
   font-family: var(--primary-font);
   color: var(--primary-color-text);
