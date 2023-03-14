@@ -38,6 +38,7 @@ img {
 .header {
   height: 72px;
   padding: 24px 156px 24px 156px;
+  border-bottom-color: var(--accent-background-btn-other);
 }
 
 .page-header-container {
@@ -188,7 +189,10 @@ img {
   color: var(--theme-dark-color-text);
   background: var(--color-link);
 }
-
+.btn-all :hover,
+.btn-all :focus {
+  background-color: var(--color-WEB-background-btn);
+}
 .footer {
   background: var(--secondary-color-text);
 }
