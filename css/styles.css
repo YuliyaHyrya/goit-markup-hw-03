@@ -124,13 +124,20 @@ img {
   color: var(--theme-dark-color-text);
   width: 496px;
   height: 120px;
-  margin: 188px auto 48px auto;
 }
 .hero {
   background: var(--secondary-color-text);
   width: 1440px;
   height: 600px;
-  text-align: center;
+}
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+  text-align-last: center;
+  height: 120px;
+  padding: 188px 472px 188px 472px;
 }
 .modal-btn {
   font-family: var(--primary-font);
