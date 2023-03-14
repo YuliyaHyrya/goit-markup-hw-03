@@ -33,8 +33,15 @@ button {
   margin-left: auto;
   margin-right: auto;
 }
+
+.header {
+  height: 72px;
+  padding: 24px 156px 24px 156px;
+}
+
 .page-header-container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 .page-nav {
@@ -47,6 +54,9 @@ button {
 }
 .address {
   display: flex;
+  justify-content: end;
+  gap: 40px;
+
   align-items: center;
 }
 .logo {
@@ -98,10 +108,7 @@ button {
   text-decoration: none;
   color: var(--secondary-color-text);
 }
-.tel {
-  margin-left: 156px;
-  margin-right: 40px;
-}
+
 .contact-link:hover,
 .link:focus {
   color: var(--color-link);
