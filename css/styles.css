@@ -140,6 +140,8 @@ img {
   color: var(--theme-dark-color-text);
   background: var(--color-link);
 }
+.btn-service {
+}
 .title-h2 {
   font-weight: 700;
   font-size: 36px;
