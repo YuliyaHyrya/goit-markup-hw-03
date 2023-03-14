@@ -33,11 +33,15 @@ img {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .header {
   height: 72px;
   padding: 24px 156px 24px 156px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
   border-bottom-color: var(--accent-background-btn-other);
 }
 
@@ -189,8 +193,8 @@ img {
   color: var(--theme-dark-color-text);
   background: var(--color-link);
 }
-.btn-all :hover,
-.btn-all :focus {
+.btn-all:hover,
+.btn-all:focus {
   background-color: var(--color-WEB-background-btn);
 }
 .footer {
