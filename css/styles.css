@@ -14,13 +14,13 @@ h3,
 h4,
 h5,
 p {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 ul {
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
 }
 img {
   display: block;
@@ -29,7 +29,7 @@ button {
   cursor: pointer;
 }
 .container {
-  width: 1440px;
+  width: 1158px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -50,10 +50,10 @@ button {
   align-items: center;
 }
 .logo {
-  margin-right: 76;
+  margin-right: 76px;
 }
 .menu-item:not(:last-child) {
-  margin-right: 40;
+  margin-right: 40px;
 }
 .body {
   font-family: var(--primary-font);
@@ -98,7 +98,10 @@ button {
   text-decoration: none;
   color: var(--secondary-color-text);
 }
-
+.tel {
+  margin-left: 156px;
+  margin-right: 40px;
+}
 .contact-link:hover,
 .link:focus {
   color: var(--color-link);
