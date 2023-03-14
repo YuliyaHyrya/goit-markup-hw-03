@@ -6,7 +6,8 @@
   --secondary-color-text: #2e2f42;
   --theme-dark-color-text: #ffffff;
   --color-WEB-background-btn: #4d5ae5;
-  --color-background-team-btn-other: #f4f4fd;
+  --color-background-btn-other: #f4f4fd;
+  --accent-background-btn-other: #e7e9fc;
 }
 h1,
 h2,
@@ -155,7 +156,7 @@ img {
   letter-spacing: 0.02em;
 }
 .team {
-  background: var(--color-background-team-btn-other);
+  background: var(--color-background-btn-other);
 }
 .team-item {
   background: var(--theme-dark-color-text);
@@ -167,8 +168,13 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   border: none;
+  color: var(--color-WEB-background-btn);
+  background: var(--color-background-btn-other);
 }
-
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: var(--accent-background-btn-other);
+}
 .portfolio-btn-list {
   display: flex;
   justify-content: center;
@@ -182,10 +188,7 @@ img {
   color: var(--theme-dark-color-text);
   background: var(--color-link);
 }
-.btn-other {
-  color: var(--color-WEB-background-btn);
-  background: var(--color-background-team-btn-other);
-}
+
 .footer {
   background: var(--secondary-color-text);
 }
