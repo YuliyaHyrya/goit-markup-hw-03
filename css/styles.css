@@ -100,6 +100,18 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.title-h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color-text);
+}
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 .container {
   max-width: 1188px;
   margin-left: auto;
@@ -144,6 +156,7 @@ img {
 .menu-item:not(:last-child) {
   margin-right: 40px;
 }
+
 /* HERO */
 
 .hero {
@@ -183,20 +196,22 @@ img {
   margin-right: auto;
   text-align: center;
 }
-.title-h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--secondary-color-text);
-  margin-bottom: 8px;
-  margin-top: 32px;
+
+/* principles */
+.principles-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: left;
 }
-.text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  margin-bottom: 32px;
+.principles-text {
+  width: 264px;
+}
+.principles-text:not(:last-child) {
+  margin-right: 24px;
+}
+.title-h3-principles {
+  margin-bottom: 8px;
 }
 /* WORK */
 .work {
@@ -205,14 +220,13 @@ img {
 }
 .list-work {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-
+  justify-content: space-between;
   flex-wrap: nowrap;
 }
 .work-item:not(:last-child) {
   margin-right: 24px;
 }
+
 /* TEAM */
 .team {
   background: var(--color-background-btn-other);
@@ -223,12 +237,18 @@ img {
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  gap: 24;
 }
 .team-item {
   width: 264px;
   height: 380px;
   background: var(--theme-dark-color-text);
+}
+.text-team {
+  margin-bottom: 32px;
+}
+.title-h3-team {
+  margin-bottom: 8px;
+  margin-top: 32px;
 }
 /* FOOTER */
 .footer {
