@@ -128,7 +128,7 @@ img {
 .header {
   height: 72px;
   padding: 24px 156px 24px 156px;
-  border-bottom-width: 1px solid var(--accent-background-btn-other);
+  border-bottom: 1px solid var(--accent-background-btn-other);
 }
 
 .page-header-container {
@@ -280,8 +280,8 @@ img {
   justify-content: center;
   gap: 24px;
   align-items: center;
-  height: 72px;
-  padding: 24px 156px 24px 156px;
+  padding-bottom: 72px;
+  padding-top: 96px;
 }
 
 .btn-all {
@@ -291,4 +291,23 @@ img {
 .btn-all:hover,
 .btn-all:focus {
   background-color: var(--color-WEB-background-btn);
+}
+.card-set {
+  outline: 1px solid tomato;
+  margin: 0;
+  padding: 0 0 120px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -24px;
+  margin-left: -24px;
+  margin-bottom: -24px;
+  flex-basis: calc(100% / 3- 24px);
+}
+.card-set > .card-item {
+  outline: 1px solid teal;
+  margin-top: 24px;
+  margin-left: 24px;
+}
+.card-set > .card-item:nth-last-child(-n + 3) {
+  margin-bottom: 24px;
 }
