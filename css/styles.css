@@ -38,53 +38,6 @@ img {
 .button {
   cursor: pointer;
 }
-.container {
-  max-width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-/* HEADER */
-.header {
-  height: 72px;
-  padding: 24px 156px 24px 156px;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: var(--accent-background-btn-other);
-}
-
-.page-header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.page-nav {
-  display: flex;
-  align-items: center;
-}
-.menu {
-  display: flex;
-  align-items: center;
-}
-.address {
-  display: flex;
-  justify-content: end;
-  gap: 40px;
-  align-items: center;
-}
-.logo {
-  margin-right: 76px;
-}
-.menu-item:not(:last-child) {
-  margin-right: 40px;
-}
-
-/* BODY */
-.body {
-  font-family: var(--primary-font);
-  color: var(--primary-color-text);
-}
 
 .link {
   text-decoration: none;
@@ -123,7 +76,53 @@ img {
   text-decoration: none;
   color: var(--secondary-color-text);
 }
+.container {
+  max-width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* BODY */
+.body {
+  font-family: var(--primary-font);
+  color: var(--primary-color-text);
+}
+/* HEADER */
+.header {
+  height: 72px;
+  padding: 24px 156px 24px 156px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--accent-background-btn-other);
+}
 
+.page-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.address {
+  display: flex;
+  justify-content: end;
+  gap: 40px;
+  align-items: center;
+}
+.logo {
+  margin-right: 76px;
+}
+.menu-item:not(:last-child) {
+  margin-right: 40px;
+}
+/* HERO */
 .title-hero {
   font-family: var(--primary-font);
   font-weight: 700;
@@ -170,6 +169,9 @@ img {
   text-transform: capitalize;
   color: var(--secondary-color-text);
   margin-bottom: 72px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 .title-h3 {
   font-weight: 500;
@@ -189,8 +191,6 @@ img {
 .team {
   padding-top: 120px;
   padding-bottom: 120px;
-  width: 1440;
-  height: 732;
   background: var(--color-background-btn-other);
 }
 .our-team-item {
