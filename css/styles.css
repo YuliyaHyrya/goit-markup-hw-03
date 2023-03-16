@@ -27,6 +27,7 @@ ul {
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
+  padding-left: 0;
 }
 .list {
   list-style: none;
@@ -115,7 +116,7 @@ img {
   margin-top: 8px;
 }
 .container {
-  max-width: 1188px;
+  max-width: 1158px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -289,6 +290,10 @@ img {
 .btn-all:focus {
   background-color: var(--color-WEB-background-btn);
 }
+.btn-other {
+  border: 1px solid var(--accent-background-btn-other);
+}
+
 .card-set {
   margin: 0;
   padding: 0 0 120px;
@@ -301,10 +306,10 @@ img {
 .card-set > .card-item {
   margin-top: 48px;
   margin-left: 24px;
-  border: 1px solid var(--accent-background-btn-other);
 }
 .card-content {
-  margin: 32px 0;
-  padding-left: 16px;
+  padding: 32px 0 32px 16px;
   text-align: left;
+  border: 1px solid var(--accent-background-btn-other);
+  border-top: none;
 }
